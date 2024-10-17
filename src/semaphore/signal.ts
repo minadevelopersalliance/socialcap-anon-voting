@@ -22,7 +22,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { PrivateKey, Signature, Poseidon, Field } from "o1js";
 import { Identity } from "./identity.js";
-import { Response, postRequest } from "./requests.js";
 
 export { Signal, sendSignal }
 
@@ -92,7 +91,7 @@ class Signal {
 async function sendSignal(
   identity: Identity,
   signal: Signal,
-): Promise<Response>{
+): Promise<any>{
   return {
     success: false,
     data: null,
