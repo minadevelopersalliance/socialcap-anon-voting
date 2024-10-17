@@ -16,6 +16,8 @@ In `src/semaphore` folder:
 
 ### Contracts
 
+In `src/contracts` folder:
+
 - [claim](src/contracts/claim.ts): deploys a new claim and closes voting on it
 - [aggregator](src/contracts/aggregator.ts): does the recursive voting for each claim
 - [credential](src/contracts/credential.ts): issues a new credential and queries it
